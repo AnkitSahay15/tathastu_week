@@ -1,0 +1,11 @@
+
+Na= input("Enter name:")
+Br= input("Branch:")
+G = input ("Gender:")
+C = input("Enter College:")
+a = input("Enter Age:")
+print (Na)
+print (Br)
+print (G)
+print (C)
+print (a)
