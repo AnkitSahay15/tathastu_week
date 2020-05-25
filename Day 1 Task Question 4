@@ -1,0 +1,13 @@
+#python 3.7.1
+
+cp=input("Enter Cost Price: ")
+cp=float(cp)
+sp=input("Enter Selling Price: ")
+sp=float(sp)
+p=sp-cp
+ppercent=(p/cp)*100
+newppercent= 5+ ppercent
+newppercent=float(newppercent)
+newp=(newppercent*cp)/100
+sp=cp+newp
+print ("For extra 5% profit SP should be \n",sp)
