@@ -1,0 +1,8 @@
+x=input("Enter a number ")
+x=int(x)
+y=input("Enter second number ")
+y=int(y)
+x=x+y
+y=x-y
+x=x-y
+print ("After swap",x,y)
