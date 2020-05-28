@@ -1,0 +1,39 @@
+#python 3.7.1
+
+a=int(input("Enter Number"))
+if a%2==0:
+  print("Even")
+else:
+   print ("Odd")
+if a>1:
+ for i in range(2,a):
+  if (a%i)==0:
+    print ("Not Prime")
+    break
+ else:
+      print("Prime")
+else:
+  print("Not Prime")
+
+temp=a
+reverse=0
+while(a>0):
+    d=a%10
+    reverse=reverse*10+d
+    a=a//10
+if(temp==reverse):
+    print("The number is a palindrome!")
+else:
+    print("The number isn't a palindrome!")
+ 
+sum=0
+temp=a
+while temp>0:
+  d=temp%10
+  sum+=d**3
+  temp//=10
+if a==sum:
+   print("Armstrong")
+else:
+   print("Not Armstrong")
+ 
